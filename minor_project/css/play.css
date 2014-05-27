@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+article {
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-pack: center;
+}
+#main_section{
+	-webkit-box-orient: vertical;
+	-webkit-box-pack: center;
+}
+
+h1{font-size:xx-large;}
+h2{font-size:x-large;}
+h3{font-size:large;}
+h4{font-size:small;}
+.player{
+	padding: 10px;
+	margin-bottom: 50px;
+	display:inline-block;
+	display: -webkit-box;
+}
+button{
+	border: none;
+	background: none;
+}
+.info{
+	margin: 10px 10px;
+	display: inline-block;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	/*-webkit-box-pack: center;*/
+	text-align: right;
+	color: #3c3c3c;
+}
+.info #para_1{
+	border: 2px solid grey;
+}
+.info #para2{
+	border: 1px solid lightgrey;
+}

@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{background:#f0f4ff;}
+body{background:#f0f4ff;direction: ltr;font: 300 15px "helvetica neue",helvetica,verdana,tahoma,arial;color: #343d47;}
+#wrapper{margin:none;background:none;border:none;border-radius:none;-webkit-box-shadow:none;}
+#wrapper{margin:10px;-webkit-box-flex:1;max-width:auto;}
+#main_div{-webkit-box-orient: vertical;}
+#main_header{-webkit-box-orient:none;}
+#main_section{margin:none;padding:none;clear:both;}
+#main_section{margin: 20px;padding:20px;}
+#input-row{display:inline-block;}
+h1{font-size:2em;font-weight:200}
+.modern *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+
+.modern input[type='text'],.modern input[type='password'],.modern select{font-size:1.2em;color:#000;padding:5px;border:1px solid #ececec;border-radius:4px;width:100%}
+
+.modern input[type='text']:focus,.modern input[type='password']:focus,.modern select:focus{outline:none;border:1px solid #0C9!important}
+
+.modern select{margin:0;height:2.44444em;vertical-align:bottom}
+
+#first-name, #middle-name, #last-name{width:7em;font-size:1.2em;color:#000;padding:.5em;border:1px solid #ececec}
+
+#email-id, #password, #confirm-password, #mobile, #username{width:21.5em;font-size:1.2em;color:#000;padding:.5em;margin-top:10px;border:1px solid #ececec}
+#username{margin-top:20px;}
+
+#first-name:hover, #middle-name:hover,, #last-name:hover, #email-id:hover, #password:hover, #confirm-password:hover, #mobile:hover, #username:hover{border:1px solid #5771ff!important}
+
+::-webkit-input-placeholder{color:#4d4d4d;text-transform:none}
+
+input[type='text']:-ms-input-placeholder,input[type='password']:-ms-input-placeholder{color:#4d4d4d;text-transform:none}
+
+::-moz-placeholder{color:#4d4d4d;text-transform:none;opacity:1}
+
+.show-password{color:#c7c7c7;font-size:1.2em;position:absolute;bottom:1px;right:.66667em;line-height:2.33333em;height:2.33333em;display:none}
+
+.gender-row{margin-top:20px}
+
+input[type='radio']:focus+label{background-color:#e5f0f9}
+
+.modern input[type='radio']+label{position:relative}
+
+.modern input[type='radio']+label{font-size:1.2em;padding:0.5em;color:#4d4d4d}
+
+input[type='radio']:checked+label{color:black}
+
+#female{margin-left:25px}
+
+input[type='text']::-ms-clear{display:none}
+
+.arrow-container{position:absolute;top:0;height:100%;width:1.8em;padding-top:1.11111em;text-align:center}
+
+.arrow-container{right:0}
+
+.bottom-dd-arrow{display:inline-block;border:6px solid transparent;border-top-color:#ccc;line-height:0;height:0;width:0}
+
+.birthday-wrapper{border:1px solid #ececec;border-radius:4px;display:-moz-inline-stack;display:inline-block;vertical-align:middle;zoom:1;}
+
+.birthday-label{font-size:1.2em;color:#a9a9a9;padding:.5em 0.8em;}
+
+.birthday-fields{margin-left:-0.5em;}
+
+.birthday-fields-wrapper{height:2.8em;display:inline-block;}
+
+.birthday-drop-down{position: absolute;top:0;font-size:1.2em;color:#c7c7c7;background-color:#fff;padding:.5em;height:100%;width:100%;border-left:1px solid #ececec;border-top-right-radius:4px;border-bottom-right-radius:4px}
+
+.birthday-label{background-color:#F0F0F0;margin-right:0em}
+
+.validation-message{margin:.4em .08em 0;font-size:.8em;margin-bottom:.99em;color:#cc4a4a;}
+.tos{font-size:.8em;margin-top:30px}
+.submit{margin-top:20px;font-size:1.06667em;color:white;text-shadow:1px 1px 0 rbga(0,0,0,0.5);background: #0C9;background-image:-webkit-gradient(linear,50% 0,50% 100%,color-stop(0%,#0C9),color-stop(100%,#0C9));background-image:-webkit-linear-gradient(#0C9,#0C9);background-image:-moz-linear-gradient(#0C9,#0C9);background-image:-o-linear-gradient(#0C9,#0C9);background-image:linear-gradient(#0C9,#0C9);border:3px solid #096;border-radius:40px;padding:0.5em 2.75em;cursor:pointer}
+.submit:hover{color:#096;text-shadow:5px 5px 0 rbga(0,0,0,0.9);border-radius:70px;}
+.row{position:relative;zoom:1}
+.column{position:relative;display:-moz-inline-stack;display:inline-block;vertical-align:middle;zoom:1;height:100%}
+.clipped{clip:rect(0,0,0,0);clip:rect(0 0 0 0);position:absolute}

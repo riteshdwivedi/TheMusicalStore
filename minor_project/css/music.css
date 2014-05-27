@@ -1,0 +1,11 @@
+@cahrset[utf-8]
+/*CSS Text File*/
+
+#main_section{
+	-webkit-box-pack: center;
+}
+
+#type{
+	height: 300px;
+	width: 200px;
+}

@@ -1,0 +1,158 @@
+html{
+	overflow: hidden;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+a {
+    color:#0099FF;
+}
+
+#container #header {
+    border-bottom: 1px solid #BBBBBB;
+	background: -webkit-radial-gradient(center,ellipse,rgba(0,0,0,0.3) 0%,rgba(255,255,255,0.6) 45%);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    height: 45px;
+	width:100%;
+    position: fixed;
+}
+
+#header{
+    position: fixed;
+}
+
+#container #header #tagline {
+    float: left;
+    font-size: 1.5em;
+    position: relative;
+    top: 12px;
+	margin-left: 25%;
+}
+
+.button {
+    border: 1px solid #0099FF;
+    box-shadow: 0px 0px 2px #BBBBBB;
+    color: #0099FF;
+    display:marker;
+    font-size: 1.33em;
+    float:left;
+    height: 16px;
+    line-height: 0.9em;
+    margin: 8px 0px 8px 25px;
+    padding: 5px 25px;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#header .button:hover {
+    background-position: 0 -28px;
+}
+
+#header .button:active {
+    background-position: 0 -56px;
+}
+
+#header .socialButtons {
+	position: relative;
+    border-right: medium none;
+}
+
+/* Social Buttons */
+
+.socialButtons {
+    /*background: none repeat scroll 0 0 #FCFCFC;
+    background-image: linear-gradient(right , #FFFFFF 0%, #FCFCFC 23%);
+    background-image: -o-linear-gradient(right , #FFFFFF 0%, #FCFCFC 23%);
+    background-image: -moz-linear-gradient(right , #FFFFFF 0%, #FCFCFC 23%);
+    background-image: -webkit-linear-gradient(right , #FFFFFF 0%, #FCFCFC 23%);
+    background-image: -ms-linear-gradient(right , #FFFFFF 0%, #FCFCFC 23%);
+
+    background-image: -webkit-gradient(
+        linear,
+        right top,
+        left top,
+        color-stop(0, #FFFFFF),
+        color-stop(0.23, #FCFCFC)
+    );*/
+
+    float: right;
+    height: 31px;
+    margin-left: 0px;
+    padding: 7px 0;
+}
+
+.socialButtonsContent {
+    border-left: 1px solid #BBBBBB;
+    padding: 4px 27px 3px 10px;
+    position: relative;
+}
+
+
+.socialButtonsContent .fb-like iframe {
+    width: 80px !important;
+    position: relative;
+    top: 3px;
+}
+
+.socialButtonsContent .fb-like iframe[style] {/*width: 100% !important;*/}
+
+.socialButtonsContent #___plusone_0 {
+    width: 50px !important;
+}
+
+.socialButtonsContent .googlePlusWrapper {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+	
+}
+
+.socialButtonsContent .facebookWrapper {
+    display: inline-block;
+    bottom: 2px;
+    position: relative;
+}
+
+.contentWrapper {
+    clear:both;
+}
+
+.contentWrapper iframe{
+    width:100%;
+	height:100%;
+}
+
+.clear{
+    clear: both;
+    height: 1px;
+}
+
+
+@media screen and (max-width: 1460px) {
+    #header .templatesButtons {
+        margin-right: 5%;
+    }
+}
+
+@media screen and (max-width: 1260px) {
+    #header .templatesButtons {
+        margin-right: 13px;
+        border-right: medium none;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+
+    #header .templatesButtons {
+        margin-right: 15px;
+    }
+    .socialButtons {
+        display: none;
+    }
+
+}

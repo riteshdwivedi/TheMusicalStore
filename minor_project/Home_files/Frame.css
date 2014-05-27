@@ -1,0 +1,70 @@
+html{overflow-x: hidden;}
+#wrapper{margin-top:47px;}
+#main_section{ -webkit-box-shadow: rgba(0,110,110,.6) 0px 0px 4px;}
+a:hover{color: #00688B;text-shadow: rgba(235,235,79,.4) 0px 0px 5px;}
+#welcome_para{background: rgba(0,100,150,0.4);text-shadow: rgba(255,255,191,1) 0px 0px 5px;}
+.row{
+	display: block;
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-flex: 1;
+	margin-top: 50px;
+}
+.col{
+	display: block;
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-orient: horizontal;
+}
+.genre{
+	display: inline-block;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-flex: 1;
+	margin: 10px;
+	padding: 10px 20px;
+	border: 1px solid #0099CC;
+}
+.genre_img{
+	height: 150px;
+	width: 250px;
+	text-align: center;
+	margin: 0px 10px;
+	-webkit-transition:-webkit-transform 0.3s;
+}
+.genre_img:hover{
+	-webkit-transform: scale(1.1,1.1);
+	position: relative;
+}
+.genre_name{
+	display: block;
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-orient: horizontal;
+	font-family: "Maiandra GD";
+	font-size: 0.8em;
+	font-weight: normal;
+	color:#d1e1f1;
+}
+.genre_name:hover{
+	color: #f1f1f1;
+	cursor: pointer;
+	text-shadow: rgba(150,150,200,0.5) 0px 0px 5px;
+}
+.genre_name input[type="submit"]{
+	background: rgba(0,100,150,0.4);
+	border: 1px solid rgba(0,0,0,0);
+	font-family: "Maiandra GD";
+	font-size: 1.2em;
+	font-weight: normal;
+	color: #d1e1f1;
+	width:270px;
+	margin-right: 20px;
+}
+.genre_name input[type="submit"]:hover{
+	color: #f1f1f1;
+	cursor: pointer;
+	text-shadow: rgba(150,150,200,0.7) 0px 0px 7px;
+	border: 1px solid rgba(50,50,200,0.6);
+}

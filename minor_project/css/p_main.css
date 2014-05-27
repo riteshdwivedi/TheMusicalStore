@@ -1,0 +1,134 @@
+*{margin: 0px;padding: 0px;}
+header, footer, section, aside, nav, article, hgroup, video {display: block;}
+a{text-decoration: none;}
+
+body{
+	width: 100%; 
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	background: url() center no-repeat fixed;
+}
+
+#wrapper{
+	text-align:center;
+	background: #FFFFFF;
+	border: 1px;
+	width: 960px;
+	margin: 20px auto;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-flex: 1;
+	border-radius: 3px;
+	/*-webkit-box-shadow: rgba(110,110,110,.7) 0px 0px 8px;*/
+	font-family: "Tw Cen MT", "Berlin Sans FB", "Calibri Light";
+}
+
+#main_header{
+	padding: 20px;
+}
+
+#main_nav{
+}
+
+#main_nav li{
+	display: inline-block;
+	list-style: none;
+	margin: 0px 15px;
+	padding: 5px;
+	-webkit-transition:-webkit-transform 0.3s;
+}
+#main_nav li:hover{
+	-webkit-transform: scale(1.5,1.5) rotate(360deg);
+}
+
+#main_div{
+	display: -webkit-box;
+	padding:20px;
+	text-align:center;
+	-webkit-box-oreint: horizontal;
+	-webkit-box-align: strech;
+	border:2px solid #000;
+}
+#main_section{
+	-webkit-box-flex: 4;
+	margin: 20px;
+	margin-left: 10px;
+	padding: 20px;
+    background: #e1e1e1 repeat-x scroll 0 0 ;
+	border:1px solid #999;
+	text-align:center;
+	display: inline-block;
+	
+}
+
+#para1{
+	font-family:"Gabriola";;
+	font-size:32px;
+	
+	text-align:left;
+	margin-top:40px;
+	
+}
+
+#main_footer{
+	text-align: center;
+	background: white;
+	padding: 20px;
+	font-size:10px;
+	margin-top:1em;
+	padding-top:0.5em;
+}
+#main_footer>p {margin:0;padding:0;}
+#details
+{
+	text-align:center;
+	margin-top:0px;
+	margin-left:300px;	
+}
+#card_img
+{
+	height:30px;
+	width:40px;
+}
+.card
+{
+	height:100px;
+	display:inline-block;
+	right:auto;
+	width:120px;
+	
+}
+.abc
+{
+	font-family: "Gabriola";	
+}
+.button
+{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:18px;
+	margin-top:5px;
+	background-color:#996;
+	border-radius:8px;
+	padding:5px 10px;
+}
+#discalimer{
+	text-align: left;
+	margin-left:0px;
+	}
+input type["text"]{
+	
+	margin-bottom:10px;
+	border-bottom:ridge;
+	}
+	#opt
+	{
+		font-family:"Gabriola";
+		font-weight:900;
+		height:10px;
+		font-size:30px;
+		
+	}
+.wtrack
+{
+	display:inline;
+}
